@@ -1,2 +1,2 @@
-# HubmapHpaHackingtheHumanBody
-Segment multi-organ functional tissue units.
+# [HuBMAP + HPA - Hacking the Human Body](https://www.kaggle.com/competitions/hubmap-organ-segmentation)
+In this work, the aim is to identify and segment functional tissue units (FTUs) across five human organs by pushing the boundaries building algorithms that generalize across different organs and are robust across different dataset differences. The hope is to potentially help accelerate the world’s understanding of the relationships between cell and tissue organization. With a better idea of the relationship of cells, researchers will have more insight into the function of cells that impact human health.
