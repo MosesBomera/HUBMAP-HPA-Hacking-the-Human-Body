@@ -1,8 +1,9 @@
+"""Viz"""
+
+import numpy as np
 import matplotlib.pyplot as plt
 from typing import Optional, List
 
-
-# Viz.
 def plot_sample(
     ax,
     item,
@@ -36,8 +37,9 @@ def plot_sample(
 
     ax.axis("off")
     # 0: Organ, 4: Sex
-    ax.set_title(f"{item['metadata'].organ}, {item['metadata'].sex}") 
-
+    ax.set_title(f"{item['metadata'].organ}, {item['metadata'].sex}")
+    
+    
 
 def plot_samples(
     dataset,

@@ -1,9 +1,11 @@
+"""Py-Torch Dataset"""
 import pandas as pd
 import tifffile as tiff
 from torch.utils.data import Dataset
-from .utils import rle2mask
+from utils.rle import rle2mask
 
 from typing import Optional, List
+
 
 # The dataset.
 class HHHHBDataset(Dataset):

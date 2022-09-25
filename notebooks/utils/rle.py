@@ -1,3 +1,5 @@
+"""Run length encoding utilities."""
+
 import numpy as np
 
 def mask2rle(
